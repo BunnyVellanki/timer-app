@@ -1,0 +1,121 @@
+.container {
+  background-color: #cffcf1;
+  padding: 30px;
+  text-align: center;
+  font-family: 'Roboto';
+  min-height: 100vh;
+}
+
+.timer-display {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.round {
+  border-radius: 50%;
+  background-color: #fff;
+  height: 130px;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center\nn;
+}
+.timer-head {
+  margin-bottom: 0px;
+}
+
+.timer-para {
+  margin-top: 0px;
+}
+
+.main-head {
+  font-family: 'Roboto';
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.start-or-pause-image {
+  height: 30px;
+  margin-right: 5px;
+}
+
+.start-or-pause-button {
+  border: none;
+  outline: none;
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.button-para {
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.limit-para {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.increase {
+  height: 50px;
+  width: 50px;
+  font-size: 35px;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  outline: none;
+  align-self: center;
+  cursor: pointer;
+}
+
+.display-time {
+  width: 100px;
+  padding: 10px;
+  border: none;
+  background-image: linear-gradient(to right, lightgreen, #00d9f5);
+  color: black;
+  border-radius: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  align-self: center;
+}
+
+.timer-settings {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 576px) {
+  .medium {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .timer-display {
+    min-width: 350px;
+    flex-grow: 1;
+  }
+}
